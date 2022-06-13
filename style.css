@@ -53,6 +53,15 @@ main > .imagem > p {
     margin: 5% 10%;
     padding: 5%;
 }
+main > section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+main > section > p {
+    background-color: #00000087;
+
+    max-width: 300px;
+}
 /* --------------------------------------------- */
 footer {
     background-color: #808080;
