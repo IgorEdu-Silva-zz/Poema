@@ -30,24 +30,25 @@ header > h1 {
 /* ------------------------------------------- */
 main {
     margin: auto;
-    padding: 5% 0;
 
     font-size: 30px;
     line-height: 3em;
 }
 main > .normal {
-    background-color: #8a8d8b;
     color: white;
 
     width: 100%;
-
 }
 main > .normal > p {
     margin: 5% 10%;
     padding: 5%;
 }
 main > .imagem {
-    background-image: url();
+    background-image: url(imagens/pexels-sagui-andrea-618833.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
 }
 main > .imagem > p {
     margin: 5% 10%;
@@ -70,7 +71,7 @@ footer {
     width: 100%;
 }
 footer > p > a{
-    padding: 0 0 0 80%;
+    padding: 0 0 0 10%;
     margin: auto;
 
     text-decoration: none;
